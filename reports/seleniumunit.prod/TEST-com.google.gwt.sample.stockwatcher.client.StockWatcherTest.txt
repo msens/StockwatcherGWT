@@ -1,0 +1,44 @@
+Testsuite: com.google.gwt.sample.stockwatcher.client.StockWatcherTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15,072 sec
+------------- Standard Output ---------------
+Compiling module com.google.gwt.sample.stockwatcher.StockWatcher.JUnit
+   Computing all possible rebind results for 'com.google.gwt.logging.client.LogConfiguration'
+      Rebinding com.google.gwt.logging.client.LogConfiguration
+         Checking rule <generate-with class='com.google.gwt.editor.rebind.SimpleBeanEditorDriverGenerator'/>
+            [WARN] Detected warnings related to 'com.google.gwt.editor.client.SimpleBeanEditorDriver'.   Are validation-api-<version>.jar and validation-api-<version>-sources.jar on the classpath?
+            [WARN] Unknown type 'com.google.gwt.editor.client.SimpleBeanEditorDriver' specified in deferred binding rule
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+The -out option is deprecated. This option will be removed in future GWT release and will throw an error if it is still used. Please use -war option instead.
+mrt 16, 2016 2:13:05 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+------------- ---------------- ---------------
+
+Testcase: testStockPriceCtor took 14,897 sec
+	FAILED
+expected: within <0.001> of <2.857142857142857>, actual: <0.2857142857142857>
+junit.framework.AssertionFailedError: expected: within <0.001> of <2.857142857142857>, actual: <0.2857142857142857>
+	at java.lang.Throwable.fillInStackTrace(Throwable.java:116)
+	at java.lang.Throwable.Throwable(Throwable.java:66)
+	at java.lang.Error.Error(Error.java:30)
+	at junit.framework.AssertionFailedError.AssertionFailedError(AssertionFailedError.java:27)
+	at com.google.gwt.sample.stockwatcher.client.StockWatcherTest.testStockPriceCtor(StockWatcherTest.java:38)
+	at Unknown.anonymous(GWTTestMetadataImpl.java:9)
+	at com.google.gwt.junit.client.impl.GWTTestAccessor.$invoke(GWTTestAccessor.java:35)
+	at com.google.gwt.junit.client.impl.GWTRunner.$executeTestMethod(GWTRunner.java:226)
+	at com.google.gwt.junit.client.GWTTestCase.$doRunTest(GWTTestCase.java:157)
+	at com.google.gwt.junit.client.GWTTestCase.$runBare(GWTTestCase.java:151)
+	at com.google.gwt.junit.client.GWTTestCase.$__doRunTest(GWTTestCase.java:115)
+	at com.google.gwt.junit.client.impl.GWTRunner.$runTest(GWTRunner.java:302)
+	at com.google.gwt.junit.client.impl.GWTRunner.$doRunTest(GWTRunner.java:235)
+	at com.google.gwt.junit.client.impl.GWTRunner$TestBlockListener.$onSuccess(GWTRunner.java:106)
+	at com.google.gwt.junit.client.impl.GWTRunner$InitialResponseListener.$onSuccess(GWTRunner.java:61)
+	at com.google.gwt.junit.client.impl.GWTRunner$InitialResponseListener.onSuccess(GWTRunner.java:59)
+	at com.google.gwt.user.client.rpc.impl.RequestCallbackAdapter.$onResponseReceived(RequestCallbackAdapter.java:232)
+	at com.google.gwt.http.client.Request.$fireOnResponseReceived(Request.java:250)
+	at com.google.gwt.http.client.RequestBuilder$1.onReadyStateChange(RequestBuilder.java:412)
+	at Unknown.anonymous(XMLHttpRequest.java:329)
+	at com.google.gwt.core.client.impl.Impl.apply(Impl.java:247)
+	at com.google.gwt.core.client.impl.Impl.entry0(Impl.java:306)
+	at Unknown.anonymous(Impl.java:72)
+

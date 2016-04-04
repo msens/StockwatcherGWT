@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="WPNLL0021547" name="com.google.gwt.sample.stockwatcher.client.StockWatcherTest" skipped="0" tests="1" time="15.072" timestamp="2016-03-16T13:13:05">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"></property>
+    <property name="sun.java.launcher" value="SUN_STANDARD"></property>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"></property>
+    <property name="os.name" value="Windows 7"></property>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"></property>
+    <property name="gwt.sdk" value="C:\ProjectsMichiel\CBS\IntelliJ\SDKs\gwt-2.7.0"></property>
+    <property name="user.country.format" value="NL"></property>
+    <property name="sun.desktop" value="windows"></property>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"></property>
+    <property name="ant.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant"></property>
+    <property name="java.runtime.version" value="1.8.0_73-b02"></property>
+    <property name="ant.file.StockWatcher" value="C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\build.xml"></property>
+    <property name="ant.file.type.StockWatcher" value="file"></property>
+    <property name="user.name" value="GW97JK"></property>
+    <property name="user.language.format" value="nl"></property>
+    <property name="user.language" value="en"></property>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"></property>
+    <property name="ant.project.default-target" value="build"></property>
+    <property name="ant.project.name" value="StockWatcher"></property>
+    <property name="java.version" value="1.8.0_73"></property>
+    <property name="user.timezone" value=""></property>
+    <property name="sun.arch.data.model" value="64"></property>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"></property>
+    <property name="sun.cpu.isalist" value="amd64"></property>
+    <property name="sun.jnu.encoding" value="Cp1252"></property>
+    <property name="file.encoding.pkg" value="sun.io"></property>
+    <property name="file.separator" value="\"></property>
+    <property name="java.specification.name" value="Java Platform API Specification"></property>
+    <property name="java.class.version" value="52.0"></property>
+    <property name="user.country" value="US"></property>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"></property>
+    <property name="java.vm.info" value="mixed mode"></property>
+    <property name="ant.file" value="C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\build.xml"></property>
+    <property name="os.version" value="6.1"></property>
+    <property name="path.separator" value=";"></property>
+    <property name="java.vm.version" value="25.73-b02"></property>
+    <property name="user.variant" value=""></property>
+    <property name="ant.library.dir" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib"></property>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+    <property name="user.script" value=""></property>
+    <property name="user.home" value="C:\Users\GW97JK"></property>
+    <property name="java.specification.vendor" value="Oracle Corporation"></property>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Microsoft Application Virtualization Client;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files\Gemalto\Classic Client\BIN;C:\Program Files (x86)\Gemalto\Classic Client\BIN;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\QuickTime\QTSystem\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Plantronics\PlantronicsURE\;C:\Users\GW97JK\AppData\Roaming\npm;."></property>
+    <property name="java.vendor.url" value="http://java.oracle.com/"></property>
+    <property name="java.vm.vendor" value="Oracle Corporation"></property>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.google.gwt.sample.stockwatcher.client.StockWatcherTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\reports\seleniumunit.prod\TEST-com.google.gwt.sample.stockwatcher.client.StockWatcherTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\reports\seleniumunit.prod\TEST-com.google.gwt.sample.stockwatcher.client.StockWatcherTest.xml crashfile=C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\junitvmwatcher1604523424417048119.properties propsfile=C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\junit8688428374897907399.properties"></property>
+    <property name="java.class.path" value="C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\src;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\test;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\classes;C:\ProjectsMichiel\CBS\IntelliJ\SDKs\gwt-2.7.0\gwt-user.jar;C:\ProjectsMichiel\CBS\IntelliJ\SDKs\gwt-2.7.0\gwt-dev.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\appengine-api-1.0-sdk-1.2.8.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\appengine-api-labs-1.2.8.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\datanucleus-appengine-1.0.4.final.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\datanucleus-core-1.1.5.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\datanucleus-jpa-1.1.5.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\geronimo-jpa_3.0_spec-1.1.1.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\gwt-servlet.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\jdo2-api-2.3-eb.jar;C:\ProjectsMichiel\CBS\IntelliJ\LIBS\junit-4.12.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib\ant-junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib\ant-junit4.jar"></property>
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014"></property>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+    <property name="ant.file.type" value="file"></property>
+    <property name="java.vm.specification.version" value="1.8"></property>
+    <property name="sun.cpu.endian" value="little"></property>
+    <property name="sun.os.patch.level" value="Service Pack 1"></property>
+    <property name="java.awt.headless" value="true"></property>
+    <property name="java.io.tmpdir" value="C:\Users\GW97JK\AppData\Local\Temp\"></property>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"></property>
+    <property name="os.arch" value="amd64"></property>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"></property>
+    <property name="user.dir" value="C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher"></property>
+    <property name="line.separator" value="
+"></property>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"></property>
+    <property name="basedir" value="C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher"></property>
+    <property name="gwt.args" value="-prod -logLevel WARN -out www-test"></property>
+    <property name="ant.java.version" value="1.8"></property>
+    <property name="ant.core.lib" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib\ant.jar"></property>
+    <property name="file.encoding" value="Cp1252"></property>
+    <property name="java.specification.version" value="1.8"></property>
+    <property name="ant.project.invoked-targets" value="test.remote"></property>
+  </properties>
+  <testcase classname="com.google.gwt.sample.stockwatcher.client.StockWatcherTest" name="testStockPriceCtor" time="14.903">
+    <failure message="expected: within &lt;0.001&gt; of &lt;2.857142857142857&gt;, actual: &lt;0.2857142857142857&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected: within &lt;0.001&gt; of &lt;2.857142857142857&gt;, actual: &lt;0.2857142857142857&gt;
+	at java.lang.Throwable.fillInStackTrace(Throwable.java:116)
+	at java.lang.Throwable.Throwable(Throwable.java:66)
+	at java.lang.Error.Error(Error.java:30)
+	at junit.framework.AssertionFailedError.AssertionFailedError(AssertionFailedError.java:27)
+	at com.google.gwt.sample.stockwatcher.client.StockWatcherTest.testStockPriceCtor(StockWatcherTest.java:38)
+	at Unknown.anonymous(GWTTestMetadataImpl.java:9)
+	at com.google.gwt.junit.client.impl.GWTTestAccessor.$invoke(GWTTestAccessor.java:35)
+	at com.google.gwt.junit.client.impl.GWTRunner.$executeTestMethod(GWTRunner.java:226)
+	at com.google.gwt.junit.client.GWTTestCase.$doRunTest(GWTTestCase.java:157)
+	at com.google.gwt.junit.client.GWTTestCase.$runBare(GWTTestCase.java:151)
+	at com.google.gwt.junit.client.GWTTestCase.$__doRunTest(GWTTestCase.java:115)
+	at com.google.gwt.junit.client.impl.GWTRunner.$runTest(GWTRunner.java:302)
+	at com.google.gwt.junit.client.impl.GWTRunner.$doRunTest(GWTRunner.java:235)
+	at com.google.gwt.junit.client.impl.GWTRunner$TestBlockListener.$onSuccess(GWTRunner.java:106)
+	at com.google.gwt.junit.client.impl.GWTRunner$InitialResponseListener.$onSuccess(GWTRunner.java:61)
+	at com.google.gwt.junit.client.impl.GWTRunner$InitialResponseListener.onSuccess(GWTRunner.java:59)
+	at com.google.gwt.user.client.rpc.impl.RequestCallbackAdapter.$onResponseReceived(RequestCallbackAdapter.java:232)
+	at com.google.gwt.http.client.Request.$fireOnResponseReceived(Request.java:250)
+	at com.google.gwt.http.client.RequestBuilder$1.onReadyStateChange(RequestBuilder.java:412)
+	at Unknown.anonymous(XMLHttpRequest.java:329)
+	at com.google.gwt.core.client.impl.Impl.apply(Impl.java:247)
+	at com.google.gwt.core.client.impl.Impl.entry0(Impl.java:306)
+	at Unknown.anonymous(Impl.java:72)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Compiling module com.google.gwt.sample.stockwatcher.StockWatcher.JUnit
+   Computing all possible rebind results for 'com.google.gwt.logging.client.LogConfiguration'
+      Rebinding com.google.gwt.logging.client.LogConfiguration
+         Checking rule <generate-with class='com.google.gwt.editor.rebind.SimpleBeanEditorDriverGenerator'/>
+            [WARN] Detected warnings related to 'com.google.gwt.editor.client.SimpleBeanEditorDriver'.   Are validation-api-<version>.jar and validation-api-<version>-sources.jar on the classpath?
+            [WARN] Unknown type 'com.google.gwt.editor.client.SimpleBeanEditorDriver' specified in deferred binding rule
+]]></system-out>
+  <system-err><![CDATA[The -out option is deprecated. This option will be removed in future GWT release and will throw an error if it is still used. Please use -war option instead.
+mrt 16, 2016 2:13:05 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+]]></system-err>
+</testsuite>
