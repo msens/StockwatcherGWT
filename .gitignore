@@ -1,0 +1,19 @@
+
+#intellij
+.idea/
+*.iml
+
+# Maven
+log/
+target/
+
+# Java
+*.class
+
+#GWT
+gwt-unitCache/
+.settings
+out/
+reports/
+war/
+www-test/

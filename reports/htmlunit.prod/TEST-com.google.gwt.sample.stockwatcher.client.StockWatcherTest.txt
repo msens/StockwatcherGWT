@@ -1,5 +1,5 @@
 Testsuite: com.google.gwt.sample.stockwatcher.client.StockWatcherTest
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15,407 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14,832 sec
 ------------- Standard Output ---------------
 Compiling module com.google.gwt.sample.stockwatcher.StockWatcher.JUnit
    Computing all possible rebind results for 'com.google.gwt.logging.client.LogConfiguration'
@@ -10,9 +10,9 @@ Compiling module com.google.gwt.sample.stockwatcher.StockWatcher.JUnit
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 The -out option is deprecated. This option will be removed in future GWT release and will throw an error if it is still used. Please use -war option instead.
-apr 04, 2016 2:14:28 PM java.util.prefs.WindowsPreferences <init>
+apr 05, 2016 10:04:44 AM java.util.prefs.WindowsPreferences <init>
 WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
 ------------- ---------------- ---------------
 
-Testcase: testStockPriceCtor took 15,221 sec
-Testcase: testSimple took 0,033 sec
+Testcase: testStockPriceCtor took 14,645 sec
+Testcase: testSimple took 0,027 sec

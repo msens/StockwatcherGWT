@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="WPNLL0021547" name="com.google.gwt.sample.stockwatcher.client.StockWatcherTest" skipped="0" tests="2" time="10.361" timestamp="2016-04-04T12:13:57">
+<testsuite errors="0" failures="0" hostname="WPNLL0021547" name="com.google.gwt.sample.stockwatcher.client.StockWatcherTest" skipped="0" tests="2" time="11.819" timestamp="2016-04-05T08:04:22">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"></property>
     <property name="sun.java.launcher" value="SUN_STANDARD"></property>
@@ -49,7 +49,7 @@
     <property name="java.vendor.url" value="http://java.oracle.com/"></property>
     <property name="java.vm.vendor" value="Oracle Corporation"></property>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"></property>
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.google.gwt.sample.stockwatcher.client.StockWatcherTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\reports\htmlunit.dev\TEST-com.google.gwt.sample.stockwatcher.client.StockWatcherTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\reports\htmlunit.dev\TEST-com.google.gwt.sample.stockwatcher.client.StockWatcherTest.xml crashfile=C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\junitvmwatcher4644769962849829756.properties propsfile=C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\junit3705367865507833473.properties"></property>
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.google.gwt.sample.stockwatcher.client.StockWatcherTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\reports\htmlunit.dev\TEST-com.google.gwt.sample.stockwatcher.client.StockWatcherTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\reports\htmlunit.dev\TEST-com.google.gwt.sample.stockwatcher.client.StockWatcherTest.xml crashfile=C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\junitvmwatcher900163980885256366.properties propsfile=C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\junit1308058254126577775.properties"></property>
     <property name="java.class.path" value="C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\src;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\test;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\classes;C:\ProjectsMichiel\CBS\IntelliJ\SDKs\gwt-2.7.0\gwt-user.jar;C:\ProjectsMichiel\CBS\IntelliJ\SDKs\gwt-2.7.0\gwt-dev.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\appengine-api-1.0-sdk-1.2.8.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\appengine-api-labs-1.2.8.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\datanucleus-appengine-1.0.4.final.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\datanucleus-core-1.1.5.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\datanucleus-jpa-1.1.5.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\geronimo-jpa_3.0_spec-1.1.1.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\geronimo-jta_1.1_spec-1.1.1.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\gwt-servlet.jar;C:\ProjectsMichiel\CBS\IntelliJ\GWT_GettingStarted\StockWatcher\war\WEB-INF\lib\jdo2-api-2.3-eb.jar;C:\ProjectsMichiel\CBS\IntelliJ\LIBS\junit-4.12.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib\ant-junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.4\lib\ant\lib\ant-junit4.jar"></property>
     <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014"></property>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
@@ -75,14 +75,14 @@
     <property name="java.specification.version" value="1.8"></property>
     <property name="ant.project.invoked-targets" value="test.dev"></property>
   </properties>
-  <testcase classname="com.google.gwt.sample.stockwatcher.client.StockWatcherTest" name="testStockPriceCtor" time="10.145"></testcase>
-  <testcase classname="com.google.gwt.sample.stockwatcher.client.StockWatcherTest" name="testSimple" time="0.05"></testcase>
+  <testcase classname="com.google.gwt.sample.stockwatcher.client.StockWatcherTest" name="testStockPriceCtor" time="11.587"></testcase>
+  <testcase classname="com.google.gwt.sample.stockwatcher.client.StockWatcherTest" name="testSimple" time="0.055"></testcase>
   <system-out><![CDATA[Rebinding com.google.gwt.core.client.impl.SchedulerImpl
    Checking rule <generate-with class='com.google.gwt.editor.rebind.SimpleBeanEditorDriverGenerator'/>
       [WARN] Detected warnings related to 'com.google.gwt.editor.client.SimpleBeanEditorDriver'.   Are validation-api-<version>.jar and validation-api-<version>-sources.jar on the classpath?
       [WARN] Unknown type 'com.google.gwt.editor.client.SimpleBeanEditorDriver' specified in deferred binding rule
 ]]></system-out>
-  <system-err><![CDATA[apr 04, 2016 2:13:58 PM java.util.prefs.WindowsPreferences <init>
+  <system-err><![CDATA[apr 05, 2016 10:04:23 AM java.util.prefs.WindowsPreferences <init>
 WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
 ]]></system-err>
 </testsuite>
